@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "!template.qmd"
+  output-dir: "docs"
 
 website:
   title: "Cars website"
