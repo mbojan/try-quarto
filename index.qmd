@@ -1,7 +1,5 @@
 ---
-title: "try-quarto"
+title: "Cars website"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+A Quarto website containing report generated from a `qmd` template.
