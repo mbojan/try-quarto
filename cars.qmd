@@ -1,0 +1,6 @@
+---
+title: "Cars"
+description: "This is a car listing"
+listing:
+  contents: cars
+---

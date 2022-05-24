@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: cars.qmd
+        text: Cars
 
 format:
   html:
