@@ -4,231 +4,231 @@
     "href": "cars.html",
     "title": "Cars",
     "section": "",
-    "text": "The Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Quarto source files are generated from a whisker template by a pre-render script.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "cars/1.html",
     "href": "cars/1.html",
     "title": "Mazda RX4",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Mazda RX4. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21\n6\n160\n110\n3.9\n2.62\n16.46\n0\n1\n4\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Mazda RX4. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21\n6\n160\n110\n3.9\n2.62\n16.46\n0\n1\n4\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/10.html",
     "href": "cars/10.html",
     "title": "Merc 280",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 280. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 280\n19.2\n6\n167.6\n123\n3.92\n3.44\n18.3\n1\n0\n4\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 280. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 280\n19.2\n6\n167.6\n123\n3.92\n3.44\n18.3\n1\n0\n4\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/11.html",
     "href": "cars/11.html",
     "title": "Merc 280C",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 280C. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 280C\n17.8\n6\n167.6\n123\n3.92\n3.44\n18.9\n1\n0\n4\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 280C. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 280C\n17.8\n6\n167.6\n123\n3.92\n3.44\n18.9\n1\n0\n4\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/12.html",
     "href": "cars/12.html",
     "title": "Merc 450SE",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 450SE. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 450SE\n16.4\n8\n275.8\n180\n3.07\n4.07\n17.4\n0\n0\n3\n3"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 450SE. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 450SE\n16.4\n8\n275.8\n180\n3.07\n4.07\n17.4\n0\n0\n3\n3\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/13.html",
     "href": "cars/13.html",
     "title": "Merc 450SL",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 450SL. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 450SL\n17.3\n8\n275.8\n180\n3.07\n3.73\n17.6\n0\n0\n3\n3"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 450SL. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 450SL\n17.3\n8\n275.8\n180\n3.07\n3.73\n17.6\n0\n0\n3\n3\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/14.html",
     "href": "cars/14.html",
     "title": "Merc 450SLC",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 450SLC. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 450SLC\n15.2\n8\n275.8\n180\n3.07\n3.78\n18\n0\n0\n3\n3"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 450SLC. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 450SLC\n15.2\n8\n275.8\n180\n3.07\n3.78\n18\n0\n0\n3\n3\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/15.html",
     "href": "cars/15.html",
     "title": "Cadillac Fleetwood",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Cadillac Fleetwood. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nCadillac Fleetwood\n10.4\n8\n472\n205\n2.93\n5.25\n17.98\n0\n0\n3\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Cadillac Fleetwood. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nCadillac Fleetwood\n10.4\n8\n472\n205\n2.93\n5.25\n17.98\n0\n0\n3\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/16.html",
     "href": "cars/16.html",
     "title": "Lincoln Continental",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Lincoln Continental. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nLincoln Continental\n10.4\n8\n460\n215\n3\n5.424\n17.82\n0\n0\n3\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Lincoln Continental. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nLincoln Continental\n10.4\n8\n460\n215\n3\n5.424\n17.82\n0\n0\n3\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/17.html",
     "href": "cars/17.html",
     "title": "Chrysler Imperial",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Chrysler Imperial. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nChrysler Imperial\n14.7\n8\n440\n230\n3.23\n5.345\n17.42\n0\n0\n3\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Chrysler Imperial. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nChrysler Imperial\n14.7\n8\n440\n230\n3.23\n5.345\n17.42\n0\n0\n3\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/18.html",
     "href": "cars/18.html",
     "title": "Fiat 128",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Fiat 128. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFiat 128\n32.4\n4\n78.7\n66\n4.08\n2.2\n19.47\n1\n1\n4\n1"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Fiat 128. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFiat 128\n32.4\n4\n78.7\n66\n4.08\n2.2\n19.47\n1\n1\n4\n1\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/19.html",
     "href": "cars/19.html",
     "title": "Honda Civic",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Honda Civic. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nHonda Civic\n30.4\n4\n75.7\n52\n4.93\n1.615\n18.52\n1\n1\n4\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Honda Civic. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nHonda Civic\n30.4\n4\n75.7\n52\n4.93\n1.615\n18.52\n1\n1\n4\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/2.html",
     "href": "cars/2.html",
     "title": "Mazda RX4 Wag",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Mazda RX4 Wag. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4 Wag\n21\n6\n160\n110\n3.9\n2.875\n17.02\n0\n1\n4\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Mazda RX4 Wag. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4 Wag\n21\n6\n160\n110\n3.9\n2.875\n17.02\n0\n1\n4\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/20.html",
     "href": "cars/20.html",
     "title": "Toyota Corolla",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Toyota Corolla. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nToyota Corolla\n33.9\n4\n71.1\n65\n4.22\n1.835\n19.9\n1\n1\n4\n1"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Toyota Corolla. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nToyota Corolla\n33.9\n4\n71.1\n65\n4.22\n1.835\n19.9\n1\n1\n4\n1\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/21.html",
     "href": "cars/21.html",
     "title": "Toyota Corona",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Toyota Corona. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nToyota Corona\n21.5\n4\n120.1\n97\n3.7\n2.465\n20.01\n1\n0\n3\n1"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Toyota Corona. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nToyota Corona\n21.5\n4\n120.1\n97\n3.7\n2.465\n20.01\n1\n0\n3\n1\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/22.html",
     "href": "cars/22.html",
     "title": "Dodge Challenger",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Dodge Challenger. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nDodge Challenger\n15.5\n8\n318\n150\n2.76\n3.52\n16.87\n0\n0\n3\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Dodge Challenger. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nDodge Challenger\n15.5\n8\n318\n150\n2.76\n3.52\n16.87\n0\n0\n3\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/23.html",
     "href": "cars/23.html",
     "title": "AMC Javelin",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for AMC Javelin. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nAMC Javelin\n15.2\n8\n304\n150\n3.15\n3.435\n17.3\n0\n0\n3\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for AMC Javelin. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nAMC Javelin\n15.2\n8\n304\n150\n3.15\n3.435\n17.3\n0\n0\n3\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/24.html",
     "href": "cars/24.html",
     "title": "Camaro Z28",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Camaro Z28. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nCamaro Z28\n13.3\n8\n350\n245\n3.73\n3.84\n15.41\n0\n0\n3\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Camaro Z28. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nCamaro Z28\n13.3\n8\n350\n245\n3.73\n3.84\n15.41\n0\n0\n3\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/25.html",
     "href": "cars/25.html",
     "title": "Pontiac Firebird",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Pontiac Firebird. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nPontiac Firebird\n19.2\n8\n400\n175\n3.08\n3.845\n17.05\n0\n0\n3\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Pontiac Firebird. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nPontiac Firebird\n19.2\n8\n400\n175\n3.08\n3.845\n17.05\n0\n0\n3\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/26.html",
     "href": "cars/26.html",
     "title": "Fiat X1-9",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Fiat X1-9. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFiat X1-9\n27.3\n4\n79\n66\n4.08\n1.935\n18.9\n1\n1\n4\n1"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Fiat X1-9. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFiat X1-9\n27.3\n4\n79\n66\n4.08\n1.935\n18.9\n1\n1\n4\n1\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/27.html",
     "href": "cars/27.html",
     "title": "Porsche 914-2",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Porsche 914-2. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nPorsche 914-2\n26\n4\n120.3\n91\n4.43\n2.14\n16.7\n0\n1\n5\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Porsche 914-2. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nPorsche 914-2\n26\n4\n120.3\n91\n4.43\n2.14\n16.7\n0\n1\n5\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/28.html",
     "href": "cars/28.html",
     "title": "Lotus Europa",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Lotus Europa. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nLotus Europa\n30.4\n4\n95.1\n113\n3.77\n1.513\n16.9\n1\n1\n5\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Lotus Europa. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nLotus Europa\n30.4\n4\n95.1\n113\n3.77\n1.513\n16.9\n1\n1\n5\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/29.html",
     "href": "cars/29.html",
     "title": "Ford Pantera L",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Ford Pantera L. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFord Pantera L\n15.8\n8\n351\n264\n4.22\n3.17\n14.5\n0\n1\n5\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Ford Pantera L. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFord Pantera L\n15.8\n8\n351\n264\n4.22\n3.17\n14.5\n0\n1\n5\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/3.html",
     "href": "cars/3.html",
     "title": "Datsun 710",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Datsun 710. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.32\n18.61\n1\n1\n4\n1"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Datsun 710. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.32\n18.61\n1\n1\n4\n1\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/30.html",
     "href": "cars/30.html",
     "title": "Ferrari Dino",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Ferrari Dino. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFerrari Dino\n19.7\n6\n145\n175\n3.62\n2.77\n15.5\n0\n1\n5\n6"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Ferrari Dino. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nFerrari Dino\n19.7\n6\n145\n175\n3.62\n2.77\n15.5\n0\n1\n5\n6\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/31.html",
     "href": "cars/31.html",
     "title": "Maserati Bora",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Maserati Bora. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMaserati Bora\n15\n8\n301\n335\n3.54\n3.57\n14.6\n0\n1\n5\n8"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Maserati Bora. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMaserati Bora\n15\n8\n301\n335\n3.54\n3.57\n14.6\n0\n1\n5\n8\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/32.html",
     "href": "cars/32.html",
     "title": "Volvo 142E",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Volvo 142E. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nVolvo 142E\n21.4\n4\n121\n109\n4.11\n2.78\n18.6\n1\n1\n4\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Volvo 142E. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nVolvo 142E\n21.4\n4\n121\n109\n4.11\n2.78\n18.6\n1\n1\n4\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/4.html",
     "href": "cars/4.html",
     "title": "Hornet 4 Drive",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Hornet 4 Drive. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Hornet 4 Drive. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/5.html",
     "href": "cars/5.html",
     "title": "Hornet Sportabout",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Hornet Sportabout. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.44\n17.02\n0\n0\n3\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Hornet Sportabout. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.44\n17.02\n0\n0\n3\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/6.html",
     "href": "cars/6.html",
     "title": "Valiant",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Valiant. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.46\n20.22\n1\n0\n3\n1"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Valiant. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.46\n20.22\n1\n0\n3\n1\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/7.html",
     "href": "cars/7.html",
     "title": "Duster 360",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Duster 360. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nDuster 360\n14.3\n8\n360\n245\n3.21\n3.57\n15.84\n0\n0\n3\n4"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Duster 360. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nDuster 360\n14.3\n8\n360\n245\n3.21\n3.57\n15.84\n0\n0\n3\n4\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/8.html",
     "href": "cars/8.html",
     "title": "Merc 240D",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 240D. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 240D\n24.4\n4\n146.7\n62\n3.69\n3.19\n20\n1\n0\n4\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 240D. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 240D\n24.4\n4\n146.7\n62\n3.69\n3.19\n20\n1\n0\n4\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "cars/9.html",
     "href": "cars/9.html",
     "title": "Merc 230",
     "section": "",
-    "text": "dat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 230. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 230\n22.8\n4\n140.8\n95\n3.92\n3.15\n22.9\n1\n0\n4\n2"
+    "text": "The script generate-cars.R (Quarto pre-render script) loops through rows of mtcars data frame and renders a whisker (de Jonge 2019) template template.whisker into a qmd file (Quarto source) in the cars folder.\nThose qmd files are rendered by Quarto normally.\n\n\nrequireNamespace(\"knitr\")\n\n\ndat <- mtcars[params$rowid , , drop = FALSE]\n\nThis is a report for Merc 230. The data are:\n\nknitr::kable(dat)\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMerc 230\n22.8\n4\n140.8\n95\n3.92\n3.15\n22.9\n1\n0\n4\n2\n\n\n\n\n\n\n\n\n\nReferences\n\nde Jonge, Edwin. 2019. Whisker: mustache for r, Logicless Templating. https://CRAN.R-project.org/package=whisker."
   },
   {
     "objectID": "index.html",
