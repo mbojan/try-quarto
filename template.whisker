@@ -1,0 +1,24 @@
+---
+title: "{{car_name}}"
+description: "The Quarto source files are generated from a **whisker** template by a pre-render script."
+params:
+  rowid: {{rowid}}
+  car_name: {{car_name}}
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup}
+requireNamespace("knitr")
+library(dplyr)
+```
+
+```{r get-data}
+dat <- mtcars[params$rowid , , drop = FALSE]
+```
+
+This is a report for `r params$car_name`. The data are:
+
+```{r the-table}
+knitr::kable(dat)
+```
