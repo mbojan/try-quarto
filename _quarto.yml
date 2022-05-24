@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - "!template.qmd"
 
 website:
   title: "Cars website"
